@@ -19,7 +19,7 @@ Prueba Routing
   * 10 vehículos sin conductor asignado
   * 10 vehículos con conductor
   * 30 rutas con rango de horas de inicio y fin de 1 a 5 horas. estas horas están limitadas desde el inicio al fin del día actual
-  * A cada conductor se le asignaron comunas de preferencia forma aleatoria, existe la posibilidad de que un conductor no tenga comunas de preferencia
+  * A cada conductor se le asignaron comunas de preferencia de forma aleatoria, existe la posibilidad de que un conductor no tenga comunas de preferencia
 
 #### Ejecución: ####
   - Al ejecutar esta aplicación puede visitar la ruta http://localhost:3000/ y ver el listado de rutas sin asignación de vehículo ni conductor.
