@@ -1,0 +1,12 @@
+<h1>Listing routes</h1>
+
+<%= button_to 'Asignar vehiculos y condutores', assign_route_index_path, method: :get %>
+
+<%= button_to 'Desasignar rutas', unassign_route_index_path, method: :get %>
+
+<h3>Id Vehículo, Id Conductor, Id Ruta (Hora inicio ruta - Hora fin ruta)</h3>
+<% @routes.each do |route| %>
+  <p>
+    <%= route.vehicle_id %>, <%= route.driver_id %>, <%= route.id %> (<%= route.starts_at.strftime("%I:%M %p") %> - <%= route.ends_at.strftime("%I:%M %p") %>)
+  </p>
+<% end %>
