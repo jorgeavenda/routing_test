@@ -26,7 +26,7 @@ Prueba Routing
   - Tendrá dos botones a disposición:
 
     1. "Asignar vehículos y conductores" - Ejecuta un algoritmo para asignar rutas el cual actualizara el listado, mostrando las rutas con su asignación de vehículo y conductor
-    2. "Desasignar rutas" restablece el listado a su estado original
+    2. "Reset" restablece el listado a su estado original
 
 #### Información sobre la aplicación: ####
 

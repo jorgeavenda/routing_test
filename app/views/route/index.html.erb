@@ -2,7 +2,7 @@
 
 <%= button_to 'Asignar vehiculos y conductores', assign_route_index_path, method: :get %>
 
-<%= button_to 'Desasignar rutas', unassign_route_index_path, method: :get %>
+<%= button_to 'Reset', unassign_route_index_path, method: :get %>
 
 <h3>Id Vehículo, Id Conductor, Id Ruta (Hora inicio ruta - Hora fin ruta)</h3>
 <% @routes.each do |route| %>
